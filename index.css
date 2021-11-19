@@ -1,0 +1,58 @@
+header{
+    text-align: center;
+}
+
+body{
+    font-family: Roboto;
+}
+main{
+    
+    width: 1165px;
+    background-color: rgb(218, 65, 192);
+    margin: 50px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(18,60px);
+    grid-template-rows: repeat(10,60px);
+}
+
+main > div {
+    background-color: rgb(179, 9, 142);
+    border-radius: 4px;
+}
+main > div > h2{
+    margin: 0;
+    text-align: center;
+}
+
+main > div > span{
+    font-size: 12px;
+    padding: 3px;
+    display: block;
+}
+
+main > div:nth-child(2){
+    grid-column-start: 18;
+}
+
+main > div:nth-child(5){
+    grid-column-start: 13;
+}
+
+main > div:nth-child(13){
+    grid-column-start: 13;
+}
+main > div:nth-child(56){
+    grid-column-start: 3;
+}
+main > div:nth-child(73){
+    grid-column-start:3 ;
+}
+main > div:nth-child(89){
+    grid-column-start: 18;
+}
+main > div:nth-child(105){
+    grid-column-start: 18;
+}
+
+
