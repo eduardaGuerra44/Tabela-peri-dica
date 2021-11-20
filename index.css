@@ -1,14 +1,18 @@
 header{
+    font-size: 40px;
+    font-family: Roboto;
     text-align: center;
 }
 
 body{
     font-family: Roboto;
+    background-color: rgb(206, 238, 230);
+  
 }
 main{
     
     width: 1165px;
-    background-color: rgb(218, 65, 192);
+    background-color: #f0f0f0; 
     margin: 50px auto;
     display: grid;
     gap: 5px;
@@ -42,17 +46,60 @@ main > div:nth-child(5){
 main > div:nth-child(13){
     grid-column-start: 13;
 }
-main > div:nth-child(56){
-    grid-column-start: 3;
+
+main > div:nth-child(57){
+    grid-column-start: 4;
+    
 }
+
 main > div:nth-child(73){
-    grid-column-start:3 ;
+    grid-column-start: 2;
 }
-main > div:nth-child(89){
-    grid-column-start: 18;
+main > div:nth-child(74){
+    grid-column-start:4 ;
 }
+
 main > div:nth-child(105){
-    grid-column-start: 18;
+    grid-column-start:5 ;
 }
 
 
+
+ 
+  
+
+
+div.naometais {
+    background-color: rgb(29, 161, 6);
+}
+div.metaisalcalinos{
+    background-color: rgb(255, 115, 0);
+}
+div.metaisterrosos{
+    background-color: rgb(245, 245, 9);
+}
+div.metaistransicao{
+    background-color: rgb(226, 60, 60);
+}
+div.lantanidios{
+    background-color: rgb(209, 45, 94);
+}
+div.actinidios{
+    background-color: rgb(144, 47, 173);
+}
+div.outrosmetais{
+    background-color: #51ddb3;
+}
+div.semimetais{
+    background-color: rgb(24, 106, 109);
+}
+div.halogenios{
+    background-color: rgb(57, 109, 206);
+}
+div.gasesnobres{
+    background-color: rgb(15, 38, 248);
+}
+
+div:hover{
+    background-color:rgb(206, 238, 230);
+ }
